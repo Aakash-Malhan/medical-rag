@@ -53,3 +53,8 @@ This research design aims to:
 - **Reduce manual literature search time** for a clinical question by quickly surfacing 3–5 highly relevant papers instead of paging through dozens of PubMed results.  
 - **Highlight key risk factors and complications** consistently across papers, helping reduce misdiagnosis risk due to missed evidence.  
 - Provide an **auditable trail of sources**, making it easier for clinicians to drill into original studies instead of relying on a black-box model.
+
+
+## 6. Safety & Ethics
+
+- No patient-level data is used; the corpus is built from publicly available research articles.
