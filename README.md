@@ -8,9 +8,11 @@ Deployed as a Gradio app on Hugging Face Spaces and backed by a FAISS vector sto
 ⚠️ **Important:** This project is for **educational and research purposes only**.  
 > It does **not** provide medical advice, diagnosis, or treatment recommendations.
 
+
 <img width="1919" height="940" alt="Screenshot 2025-11-15 151844" src="https://github.com/user-attachments/assets/2b117104-11db-47e6-8752-cbf36039c830" />
 <img width="1677" height="877" alt="Screenshot 2025-11-15 152101" src="https://github.com/user-attachments/assets/f67dccbb-b021-4329-a85b-56842485c5bf" />
 <img width="1697" height="865" alt="Screenshot 2025-11-15 152130" src="https://github.com/user-attachments/assets/e90051e3-53d1-4ad6-b015-be76c3a5e147" />
+
 
 
 ## 1. Business Problem
@@ -36,12 +38,12 @@ This is positioned as a **decision-support / research helper**, not a replacemen
 
 ## 3. Tech Stack 
 
-    Python | Gradio | Gemini 2.0 Flash | FAISS | Sentence Transformers (all-MiniLM-L6-v2) | RAG | 
+    Python | Gradio | Gemini 2.0 Flash | FAISS | Sentence Transformers (all-MiniLM-L6-v2) | RAG
 
 
-## 5. Business Impact (Prototype)
+## 5. Business Impact
 
-Although this is a research prototype (no clinical deployment), the design aims to:
+This research design aims to:
 
 - **Reduce manual literature search time** for a clinical question by quickly surfacing 3–5 highly relevant papers instead of paging through dozens of PubMed results.  
 - **Highlight key risk factors and complications** consistently across papers, helping reduce misdiagnosis risk due to missed evidence.  
