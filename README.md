@@ -19,9 +19,9 @@ Deployed as a Gradio app on Hugging Face Spaces and backed by a FAISS vector sto
 
 During the COVID-19 outbreak, clinicians and researchers faced:
 
-- An **explosion of literature** (tens of thousands of papers in months).  
-- Difficulty **keeping up with new risk factors, complications, and treatment evidence**.  
-- High risk of **missing key findings** buried in papers and abstracts, which can contribute to mis-informed decisions and misdiagnosis risk.
+    An **explosion of literature** (tens of thousands of papers in months).
+    Difficulty **keeping up with new risk factors, complications, and treatment evidence**. 
+    High risk of **missing key findings** buried in papers and abstracts, which can contribute to mis-informed decisions and misdiagnosis risk.
 
 Traditional keyword search over PDFs or PubMed requires manual triaging and reading, which is slow and error-prone when time is critical.
 
@@ -29,9 +29,9 @@ Traditional keyword search over PDFs or PubMed requires manual triaging and read
 
 Build a **medical literature assistant** that:
 
-- Retrieves the most relevant **peer-reviewed COVID-19 papers** for a clinical/research question.  
-- Generates **concise, grounded summaries** that explicitly cite the underlying articles.  
-- Enforces **safety guardrails**: educational tone only, no patient-specific advice or treatment plans.
+    Retrieves the most relevant **peer-reviewed COVID-19 papers** for a clinical/research question.
+    Generates concise, grounded summaries that explicitly cite the underlying article.
+    Enforces safety guardrails: educational tone only, no patient-specific advice or treatment plans.
 
 This is positioned as a **decision-support / research helper**, not a replacement for clinicians.
 
@@ -41,10 +41,15 @@ This is positioned as a **decision-support / research helper**, not a replacemen
     Python | Gradio | Gemini 2.0 Flash | FAISS | Sentence Transformers (all-MiniLM-L6-v2) | RAG
 
 
+**Data**
+
+    CORD-19 (COVID-19 Open Research Dataset)
+
+
 ## 5. Business Impact
 
 This research design aims to:
 
-- **Reduce manual literature search time** for a clinical question by quickly surfacing 3–5 highly relevant papers instead of paging through dozens of PubMed results.  
-- **Highlight key risk factors and complications** consistently across papers, helping reduce misdiagnosis risk due to missed evidence.  
-- Provide an **auditable trail of sources**, making it easier for clinicians to drill into original studies instead of relying on a black-box model.
+    Reduce manual literature search time for a clinical question by quickly surfacing 3–5 highly relevant papers instead of paging through dozens of PubMed results.
+    Highlight key risk factors and complications consistently across papers, helping reduce misdiagnosis risk due to missed evidence.
+    Provide an **auditable trail of sources**, making it easier for clinicians to drill into original studies instead of relying on a black-box model.
